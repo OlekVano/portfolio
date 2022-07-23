@@ -1,0 +1,74 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+body {
+  margin:0;
+  overflow-x: hidden;
+  font-family: Lato;
+}
+
+.blue-gradient {
+  height: 300vh;
+  background: rgb(7,44,140);
+  background: -moz-linear-gradient(0deg, rgba(7,44,140,1) 0%, rgba(88,204,237,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(7,44,140,1) 0%, rgba(88,204,237,1) 100%);
+  background: linear-gradient(0deg, rgba(7,44,140,1) 0%, rgba(88,204,237,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#072c8c",endColorstr="#58cced",GradientType=1);
+
+  position: relative;
+}
+
+.main-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+/* ContactMe */
+
+input, textarea, button {
+  background-color : rgba(255, 255, 255, 0.2);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+  font-size: 2vw;
+  font-family: Lato;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+input:focus,
+textarea:focus {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: none;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  flex: 1;
+}
+
+button {
+  margin-top: 20px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+
+button:active {
+  background-color: rgba(255, 255, 255, 0.6);
+}

@@ -1,0 +1,135 @@
+.contactMe {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 50%;
+    color: white;
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 800;
+}
+
+.description {
+    margin-top: 5vw;
+    font-size: 2vw;
+}
+
+.formContainer {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+.form {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 15px 25px 25px 25px;
+    border-radius: 15px;
+    margin-top: 5vw;
+}
+
+@media (max-width: 1400px) {
+    .title {
+        font-size: 7.5vw;
+    }
+
+    .name,
+    .email,
+    .message,
+    .submit {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 1200px) {
+    .title {
+        font-size: 8vw;
+    }
+
+    .name,
+    .email,
+    .message,
+    .submit {
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        width: 70%;
+    }
+
+    .name,
+    .email,
+    .message,
+    .submit {
+        font-size: 3.5vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .title {
+        font-size: 9.5vw;
+    }
+
+    .container {
+        width: 85%;
+    }
+
+    .name,
+    .email,
+    .message,
+    .submit {
+        font-size: 4.5vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 12vw;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .name,
+    .email,
+    .message,
+    .submit {
+        font-size: 6vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 13.5vw;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .name,
+    .email,
+    .message,
+    .submit {
+        font-size: 8vw;
+    }
+}

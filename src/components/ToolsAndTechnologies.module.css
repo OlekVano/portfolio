@@ -1,0 +1,130 @@
+.toolsAndTechnologies {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50%;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 800;
+}
+
+.columns {
+    width: 100%;
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 48%;
+}
+
+.subtitle {
+    font-size: 2vw;
+    text-align: center;
+}
+
+.tools {
+    margin-top: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bigTool,
+.smallTool {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigTool {
+    width: 25%;
+    /*height: calc(25vw / 4)*/
+    height: 15vh;
+}
+
+.smallTool {
+    /*width: 20%;
+    height: calc(25vw / 5)*/
+    width: 25%;
+    height: calc(25vw / 4)
+}
+
+.bubble {
+    background-color: rgba(1, 1, 1, 0.2);
+    border-radius: 5px;
+    width: 95%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s ease;
+}
+
+.bubble:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.bubble:active {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.image {
+    max-height: 50%;
+    max-width: 80%;
+}
+
+@media (max-width: 1400px) {
+    .container {
+        width: 70%;
+    }
+
+    .title {
+        font-size: 7.5vw;
+    }
+}
+
+@media (max-width: 1200px) {
+    .title {
+        font-size: 8vw;
+    }
+}
+
+@media (max-width: 1000px) {
+    .title {
+        font-size: 8.5vw;
+    }
+
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 800px) {
+    .title {
+        font-size: 9.5vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .bigTool {
+        width: 33%;
+        height: 12.5vh;
+    }
+}
+
+@media (max-width: 400px) {
+    .bigTool {
+        width: 50%;
+    }
+}
