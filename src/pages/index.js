@@ -12,6 +12,7 @@ import '../index.css'
 const IndexPage = () => {
   return (
     <div>
+      <title>Oleksiy Vano's Portfolio</title>
       <ExploreScreen />
       {/*<div className='blue-gradient' >
         <AboutMe />
@@ -30,3 +31,10 @@ const IndexPage = () => {
 }
 
 export default IndexPage
+
+/*
+    siteUrl: `https://olekvano.netlify.app`,
+    title: 'Oleksiy Vano\'s portfolio',
+    author: 'Oleksiy Vano',
+    description: 'Oleksiy Vano\'s portfolio website',
+*/
