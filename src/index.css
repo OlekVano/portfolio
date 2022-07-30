@@ -2,8 +2,13 @@
 
 body {
   margin:0;
-  overflow-x: hidden;
   font-family: Lato;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden !important;
+  position: relative;
 }
 
 .blue-gradient {

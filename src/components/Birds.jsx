@@ -3,7 +3,7 @@ import * as styles from './Birds.module.css'
 
 const Birds = () => {
   return (
-    <div>
+    <div className={styles.birds} >
         <div className={styles.birdContainerOne}>
             <div className={styles.birdOne}></div>
         </div>

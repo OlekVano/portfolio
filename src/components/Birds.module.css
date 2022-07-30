@@ -1,8 +1,15 @@
+.birds {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+}
+
 .birdContainerOne,
 .birdContainerTwo,
 .birdContainerThree,
 .birdContainerFour {
     position: absolute;
+
     top: 20%;
     left: -10%;
     -webkit-transform: scale(0) translateX(-10vw);

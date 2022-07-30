@@ -7,6 +7,7 @@ import htmlLogo from '../images/html-logo.png'
 import cssLogo from '../images/css-logo.png'
 import nodeLogo from '../images/node-logo.png'
 import reactLogo from '../images/react-logo.png'
+import gatsbyLogo from '../images/gatsby-logo.png'
 import tailwindLogo from '../images/tailwind-logo.png'
 import csharpLogo from '../images/c-sharp-logo.png'
 import unityLogo from '../images/unity-logo.png'
@@ -25,6 +26,7 @@ const ToolsAndTechnologies = () => {
           <div className={styles.bigTool}><a target='_blank' rel='noopener noreferrer' href='https://developer.mozilla.org/en-US/docs/Web/CSS' className={styles.bubble}><img alt='CSS logo' className={styles.image} src={cssLogo} /></a></div>
           <div className={styles.bigTool}><a target='_blank' rel='noopener noreferrer' href='https://nodejs.org' className={styles.bubble}><img alt='Node.js logo' className={styles.image} src={nodeLogo} /></a></div>
           <div className={styles.bigTool}><a target='_blank' rel='noopener noreferrer' href='https://reactjs.org' className={styles.bubble}><img alt='React logo' className={styles.image} src={reactLogo} /></a></div>
+          <div className={styles.bigTool}><a target='_blank' rel='noopener noreferrer' href='https://www.gatsbyjs.com' className={styles.bubble}><img alt='Gatsby logo' className={styles.image} src={gatsbyLogo} /></a></div>
           <div className={styles.bigTool}><a target='_blank' rel='noopener noreferrer' href='https://tailwindcss.com' className={styles.bubble}><img alt='Tailwind logo' className={styles.image} src={tailwindLogo}/></a></div>
           <div className={styles.bigTool}><a target='_blank' rel='noopener noreferrer' href='https://docs.microsoft.com/en-us/dotnet/csharp' className={styles.bubble}><img alt='C# logo' className={styles.image} src={csharpLogo} /></a></div>
           <div className={styles.bigTool}><a target='_blank' rel='noopener noreferrer' href='https://unity.com' className={styles.bubble}><img alt='Unity logo' className={styles.image} src={unityLogo} /></a></div>
