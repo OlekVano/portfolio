@@ -13,7 +13,7 @@ module.exports = {
         short_name: `Oleksiy Vano's Portfolio`,
         description: `I am Oleksiy Vano, a 16-year-old self-taught developer of Ukrainian origin.\nI started learning programming by myself when I was 14 years old out of curiosity and I fell in love with it.\nI speak 4 languages: Ukrainian, Russian, English and Portuguese.`,
         lang: `en`,
-        icon: `src/images/icon-3.png`,
+        icon: `src/images/icon-5.png`,
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#fff`,
