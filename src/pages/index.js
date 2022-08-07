@@ -11,7 +11,7 @@ import '../index.css'
 // markup
 const IndexPage = () => {
   return (
-    <div>
+    <div id='index-page'>
       <title>Oleksiy Vano's Portfolio</title>
       <ExploreScreen />
       {/*<div className='blue-gradient' >
