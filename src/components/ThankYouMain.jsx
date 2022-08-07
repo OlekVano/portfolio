@@ -13,7 +13,7 @@ const ThankYouMain = () => {
             <div className={styles.main} >
                 <div className={styles.title} >Thank you</div>
                 <div className={styles.subtitle}>The form was submitted successfully</div>
-                <a className={styles.btn} href='/#index-page' >Back Home</a>
+                <a className={styles.btn} href='/' >Back Home</a>
             </div>
             <Waves />
         </div>
