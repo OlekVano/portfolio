@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect } from 'react'
 
 import AboutMe from '../components/AboutMe'
 import Bubbles from '../components/Bubbles'
@@ -10,6 +11,22 @@ import '../index.css'
 
 // markup
 const IndexPage = () => {
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show')
+        }
+        else {
+          entry.target.classList.remove('show')
+        }
+      })
+    })
+
+    const hiddenElements = document.querySelectorAll('.hidden')
+    hiddenElements.forEach((el) => observer.observe(el))
+  }, [])
+
   return (
     <div id='index-page'>
       <title>Oleksiy Vano's Portfolio</title>
