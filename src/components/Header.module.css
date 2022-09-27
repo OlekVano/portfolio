@@ -1,0 +1,16 @@
+.main {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+.container {
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image {
+    height: 50px;
+}
