@@ -82,13 +82,13 @@ button:active {
   opacity: 0%;
   transition: all 0.75s;
   transform: translateX(-100%);
-  filter: blur(5px);
+  /*filter: blur(5px);*/
 }
 
 .show {
   opacity: 100%;
   transform: translateX(0%);
-  filter: blur(0px);
+  /*filter: blur(0px);*/
 }
 
 .tool:nth-child(2),
